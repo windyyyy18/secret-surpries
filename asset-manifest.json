@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/secret-surpries/static/css/main.333bf9a3.css",
-    "main.js": "/secret-surpries/static/js/main.b15fd9f9.js",
+    "main.js": "/secret-surpries/static/js/main.2e51a6f6.js",
     "static/js/453.e88c1c84.chunk.js": "/secret-surpries/static/js/453.e88c1c84.chunk.js",
     "static/media/songultah.mp3": "/secret-surpries/static/media/songultah.e4884d6e86898ed44b26.mp3",
     "static/media/amplopultah.png": "/secret-surpries/static/media/amplopultah.c6ce1a3b704b86e7bd51.png",
@@ -10,11 +10,11 @@
     "static/media/ULTAH3.jpeg": "/secret-surpries/static/media/ULTAH3.91c95216348d4208077b.jpeg",
     "index.html": "/secret-surpries/index.html",
     "main.333bf9a3.css.map": "/secret-surpries/static/css/main.333bf9a3.css.map",
-    "main.b15fd9f9.js.map": "/secret-surpries/static/js/main.b15fd9f9.js.map",
+    "main.2e51a6f6.js.map": "/secret-surpries/static/js/main.2e51a6f6.js.map",
     "453.e88c1c84.chunk.js.map": "/secret-surpries/static/js/453.e88c1c84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.333bf9a3.css",
-    "static/js/main.b15fd9f9.js"
+    "static/js/main.2e51a6f6.js"
   ]
 }
