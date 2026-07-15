@@ -1,0 +1,82 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #E0C3FC 0%, #FFDEE9 100%);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px; 
+  text-align: center; 
+}
+
+@keyframes fall {
+  0% { transform: translateY(-10vh) rotate(0deg); opacity: 0; }
+  10% { opacity: 0.6; }
+  90% { opacity: 0.6; }
+  100% { transform: translateY(110vh) rotate(360deg); opacity: 0; }
+}
+
+.flower {
+  position: absolute;
+  top: -10%;
+  font-size: 30px;
+  animation: fall linear infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); }
+  50% { transform: scale(1.05); filter: drop-shadow(0 0 25px rgba(255, 255, 255, 1)); }
+  100% { transform: scale(1); filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); }
+}
+
+@keyframes openEnvelope {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(15); opacity: 0; filter: drop-shadow(0 0 50px rgba(255, 255, 255, 1)); }
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2; 
+  width: 100%;
+  max-width: 500px;
+}
+
+.envelope-button {
+  width: 80%; 
+  max-width: 250px;
+  cursor: pointer;
+  animation: pulse 3s infinite ease-in-out;
+  transition: transform 0.3s ease;
+  margin: 20px 0;
+}
+
+.envelope-button.opening {
+  z-index: 10; 
+  animation: openEnvelope 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  pointer-events: none;
+}
+
+/* Teks */
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: clamp(1.8rem, 8vw, 3rem); 
+  color: #4a148c;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1rem, 4vw, 1.2rem);
+  color: #6a1b9a;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
