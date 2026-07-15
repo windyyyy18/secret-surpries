@@ -69,7 +69,7 @@ function Birthday() {
           Cikitta
         </h1>
         <div className="divider"></div>
-        <p className="scroll-hint">JUNE 16 • THE MOST SPECIAL DAY</p>
+        <p className="scroll-hint">JULY 16 • THE MOST SPECIAL DAY</p>
       </div>
 
       <div className={`content-section ${showContent ? 'fade-in' : ''}`}>
